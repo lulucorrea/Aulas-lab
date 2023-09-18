@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap');
+
+/* geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Syne', sans-serif;
+    background: rgb(221, 221, 221);
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.7rem;
+    color: aliceblue;
+}
+
+p{
+    font-size: 1.4rem;
+    padding: .6rem;
+}
+
+/* div inicial */
+.header, .centro, .posCentro, .final {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(217, 210, 210);
+    padding: 3rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    gap: 4rem;
+}
+
+.header img{
+    height: 22rem;
+    border-radius: 1rem;
+}
+
+/* segunda div */
+.centro{
+    background: rgb(189, 156, 156);
+}
+
+.centro h1{
+    color: rgb(201, 195, 186);
+}
+
+.centro img{
+    height: 35rem;
+    border-radius: 1rem;
+}
+
+/* terceira div */
+.posCentro .imagens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.posCentro img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 1rem;
+}
+
+/* div final */
+.final img{
+    width: 18rem;
+    border-radius: 1rem;
+}
+
+.final .row{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.final .row .map{
+    width: 30rem;
+    height: 20rem;
+    flex: 1 1 45rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
